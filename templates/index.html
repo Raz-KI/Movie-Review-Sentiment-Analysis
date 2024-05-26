@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Movie Review</title>
+</head>
+<body>
+    <h1>
+        Movie Review Negative Or Positive
+    </h1>
+    {% if result%}
+        <p>{{result}}</p>
+    {%endif%}
+    <form method="post" action="/predict">
+        <label>Movie Review</label>
+        <!-- to access the field we use name -->
+        <input type="text" name="review"><br><br>
+        <input type="submit" name="Predict">
+    </form>
+</body>
+</html>
