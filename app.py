@@ -37,5 +37,3 @@ def predict():
     
     # to_predict=put_sample_here_to_get_df(s)
     return render_template('index.html',result=prediction)
-if __name__=='__main__':
-    app.run(debug=True)
