@@ -1,3 +1,4 @@
+gunicorn
 flask
 Flask
 joblib
@@ -5,4 +6,3 @@ nltk
 numpy
 pandas
 scikit_learn
-﻿﻿gunicorn
