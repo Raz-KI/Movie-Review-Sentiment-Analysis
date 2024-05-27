@@ -5,4 +5,4 @@ nltk
 numpy
 pandas
 scikit_learn
-﻿gunicorn==20.1.0
+﻿﻿gunicorn==20.1.0
